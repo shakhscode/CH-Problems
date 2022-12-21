@@ -1,0 +1,5 @@
+#name,width,height
+u1,3,5
+rec1,80,20
+rec2,7,2
+z,10,2

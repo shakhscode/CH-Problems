@@ -1,0 +1,1 @@
+There are ways to save a filehandle or make your code less readable, many of which are provided in other answers, but none change the fundamental operation: You must read in the existing file, then write out the data you want to prepend, followed by the existing data you read in.
