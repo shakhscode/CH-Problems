@@ -1,4 +1,4 @@
-### Solutions are intended to share publically. You can use them for reference but can't use without permission.
+### Solutions are intended to share publically. Feel free to use them for reference.
 
 ### Topics
 - Core python data structures.

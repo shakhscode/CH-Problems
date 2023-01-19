@@ -1,0 +1,42 @@
+
+Z score
+z = \frac{x-\mu}{\sigma}
+
+### Tests
+
+
+Z tests 
+
+One sample z test
+
+z = \frac{\bar{x} - \mu_0}{\frac{\sigma}{\sqrt{n}}}
+
+
+One proportion z test
+
+z = \frac{\hat{p}-p_0}{\frac{\sqrt{p_0(1-p_0)}}{n}}
+
+t tests
+
+Two sample z test 
+z = \frac{\bar{x}_1-\bar{x}_1-\Delta}{\sqrt{\frac{\sigma_1^2}{n_1} +\frac{\sigma_2^2}{n_2}}}
+
+one sample t test
+
+t= \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}}
+
+### Confidence itervals
+
+Confidence Interval for z test
+C.I = \bar{x}\pm z_{ci}\frac{\sigma}{\sqrt{n}}
+
+
+Confidence interval for 2 sample  t test (similar for z test also)
+CI = (\bar{x}_1-\bar{x}_2) \pm tS_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}
+
+Where, S_p = \sqrt{\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}
+
+Confidence interval for proportion
+
+Chi- square for population variance.
+\chi^2 = \frac{s^2}{\sigma_0^2}(N-1)
