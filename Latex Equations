@@ -25,6 +25,11 @@ one sample t test
 
 t= \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}}
 
+
+Chi-square test
+
+\chi^2 =\frac{s^2}{\sigma^2}(n-1)
+
 ### Confidence itervals
 
 Confidence Interval for z test
