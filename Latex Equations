@@ -18,12 +18,14 @@ z = \frac{\hat{p}-p_0}{\frac{\sqrt{p_0(1-p_0)}}{n}}
 
 t tests
 
-Two sample z test 
-z = \frac{\bar{x}_1-\bar{x}_1-\Delta}{\sqrt{\frac{\sigma_1^2}{n_1} +\frac{\sigma_2^2}{n_2}}}
-
 one sample t test
 
 t= \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}}
+
+Two sample z test 
+z = \frac{\bar{x}_1-\bar{x}_1-\Delta}{\sqrt{\frac{\sigma_1^2}{n_1} +\frac{\sigma_2^2}{n_2}}}
+
+
 
 
 Chi-square test
