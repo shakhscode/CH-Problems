@@ -34,6 +34,7 @@ Chi-square test
 
 ### Confidence itervals
 
+
 Confidence Interval for z test
 C.I = \bar{x}\pm z_{ci}\frac{\sigma}{\sqrt{n}}
 
