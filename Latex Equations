@@ -44,7 +44,42 @@ CI = (\bar{x}_1-\bar{x}_2) \pm tS_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}
 
 Where, S_p = \sqrt{\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}
 
-Confidence interval for proportion
+Confidence interval for proportion z test
+C.I = \hat{p} \pm z_{critical}\sqrt{\frac{ \hat{p}(1- \hat{p})}{n}}
+
 
 Chi- square for population variance.
 \chi^2 = \frac{s^2}{\sigma_0^2}(N-1)
+
+
+Poisson Distribution:
+
+For a random variable  according to  Poisson distribution, probability of  is given by 
+
+P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}
+
+where \lambda is the mean number of occurrence of x
+
+
+Probability and Set Theory
+P (A \cup B) = P(A) + P(B) - P(A \cap B)
+
+Conditional probability
+P(B|A) = \frac{P(B \cap A)}{P(A)}
+
+
+Chebyshev's theorem:
+
+According to Chebyshev's inequality theorem 
+
+The maximum probability of a random variable X  deviated k standard deviation away from the mean \mu  is given by 
+
+P(|X-\mu| \ge k\sigma) \le \frac{1}{k^2}
+
+And, from this we can derive that 
+P(\mu - k\sigma < X < \mu + k\sigma) > 1 - \frac{1}{k^2}
+At least (1 - \frac{1}{k^2})\% of data from a distribution fall within k standard deviation from the mean \mu
+
+
+
+
