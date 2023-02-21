@@ -61,6 +61,10 @@ P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}
 where \lambda is the mean number of occurrence of x
 
 
+Binomial distribution.
+P(x) = _{}^{n}\textrm{C}_x p^x q^{n-x}
+
+
 Probability and Set Theory
 P (A \cup B) = P(A) + P(B) - P(A \cap B)
 
@@ -81,5 +85,14 @@ P(\mu - k\sigma < X < \mu + k\sigma) > 1 - \frac{1}{k^2}
 At least (1 - \frac{1}{k^2})\% of data from a distribution fall within k standard deviation from the mean \mu
 
 
+Quartiles:
+Q_1 = (\frac{n+1}{4})^{th} \ term
 
 
+
+Regression Equations:
+
+
+S_x = \sqrt{\frac{\sum (x-\bar{x})^2 }{n-1}  }
+
+r = \frac{\sum ((x-\bar{x})(y-\bar{y}))}{\sqrt{\sum (x-\bar{x})^2\sum (y-\bar{y})^2}}
