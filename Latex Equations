@@ -1,3 +1,13 @@
+Basic stats:
+
+Mean:
+\bar{x} = \frac{\sum xf}{\sum f}
+
+Standard deviation:
+\sigma = \sqrt{\frac{\sum f(x-\bar{x})^2}{n}}
+
+
+
 
 Z score
 z = \frac{x-\mu}{\sigma}
@@ -96,3 +106,6 @@ Regression Equations:
 S_x = \sqrt{\frac{\sum (x-\bar{x})^2 }{n-1}  }
 
 r = \frac{\sum ((x-\bar{x})(y-\bar{y}))}{\sqrt{\sum (x-\bar{x})^2\sum (y-\bar{y})^2}}
+
+t value for correlation coefficient:
+t = r \sqrt{\frac{df}{1-r^2}} \   \ \ \ \ \ where \  \ \  df = N- 2
