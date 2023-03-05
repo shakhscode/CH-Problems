@@ -3,11 +3,21 @@ Basic stats:
 Mean:
 \bar{x} = \frac{\sum xf}{\sum f}
 
+Median:
+M = \frac{(\frac{n}{2})^{th} \ term + (\frac{n}{2}+1)^{th} \ term }{2}
+
+Mean from density function:
+E[X] = \int_{-\infty}^{\infty} xf(x)dx
+
 Standard deviation:
 \sigma = \sqrt{\frac{\sum f(x-\bar{x})^2}{n}}
 
+Variance from density function:
+\sigma^2 = Var(X) = E[X^2] - (E[X])^2
 
 
+Marginal probability of X from f(x,y) is given as:
+f_X(x) = \int_{-\infty}^{\infty}f(x,y)dy
 
 Z score
 z = \frac{x-\mu}{\sigma}
@@ -57,6 +67,8 @@ Where, S_p = \sqrt{\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}
 Confidence interval for proportion z test
 C.I = \hat{p} \pm z_{critical}\sqrt{\frac{ \hat{p}(1- \hat{p})}{n}}
 
+And, n can be given as 
+n = \frac{z_{critical}^2 \times \hat{p}(1-\hat{p})}{E^2}
 
 Chi- square for population variance.
 \chi^2 = \frac{s^2}{\sigma_0^2}(N-1)

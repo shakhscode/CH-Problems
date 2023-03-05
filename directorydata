@@ -1,0 +1,26 @@
+Number of subdirectories in the present directory:
+7
+
+Number of files in the directory:
+11
+
+List of the files in the directory that has zero length:
+./file1
+./file2
+
+Disk space used by files:
+11M	CorePython
+4,0K	directory
+4,0K	directorycheck.sh
+4,0K	directorydata
+0	file1
+0	file2
+4,0K	file.txt
+4,0K	Latex Equations
+728K	linux
+7,1M	ML_and_Analytics
+4,0K	numpyrandomEx.ipynb
+12K	Organic_vs_Conventional.png
+2,4M	Pics
+4,0K	README.md
+4,0K	SeleniumAutoRefresh.ipynb
