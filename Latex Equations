@@ -88,6 +88,9 @@ P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}
 where \lambda is the mean number of occurrence of x
 
 
+Expoential distribution:
+f(x,\lambda) = \left\{\begin{matrix} \lambda e^{-\lambda x} \ for \ x \ge 0 \\ 0 \ for \ x <0 \end{matrix}\right.
+
 Binomial distribution.
 P(x) = _{}^{n}\textrm{C}_x p^x q^{n-x}
 
