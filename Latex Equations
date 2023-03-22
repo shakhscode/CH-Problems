@@ -46,6 +46,11 @@ one sample t test
 
 t= \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}}
 
+Paired t-test:
+t = \frac{\bar{x}_D}{S_D}\sqrt{n}
+Where,  \bar{x}_D, S_D are the mean and standard deviations of the differences between the samples.
+
+
 Independent pair t-test
 t = \frac{\bar{x}_1-\bar{x}_2}{S_p\sqrt{\frac{1}{n_1} +\frac{1}{n_2}}}
 
@@ -59,9 +64,18 @@ Chi-square test
 
 ### Confidence itervals
 
+The estimated standard error of the sampling distribution:
+S.E =\sqrt{\frac{ \hat{p}(1- \hat{p})}{n}}
 
 Confidence Interval for z test
-C.I = \bar{x}\pm z_{ci}\frac{\sigma}{\sqrt{n}}
+C.I = \bar{x}\pm z \times \frac{\sigma}{\sqrt{n}}
+
+
+Confidence interval for proportion z test
+C.I = \hat{p} \pm z_{critical}\sqrt{\frac{ \hat{p}(1- \hat{p})}{n}}
+
+And, n can be given as 
+n = \frac{z_{critical}^2 \times \hat{p}(1-\hat{p})}{E^2}
 
 
 Confidence interval for 2 sample  t test (similar for z test also)
@@ -69,11 +83,6 @@ CI = (\bar{x}_1-\bar{x}_2) \pm tS_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}
 
 Where, S_p = \sqrt{\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2}}
 
-Confidence interval for proportion z test
-C.I = \hat{p} \pm z_{critical}\sqrt{\frac{ \hat{p}(1- \hat{p})}{n}}
-
-And, n can be given as 
-n = \frac{z_{critical}^2 \times \hat{p}(1-\hat{p})}{E^2}
 
 Chi- square for population variance.
 \chi^2 = \frac{s^2}{\sigma_0^2}(N-1)
@@ -125,7 +134,34 @@ Regression Equations:
 
 S_x = \sqrt{\frac{\sum (x-\bar{x})^2 }{n-1}  }
 
+S_y = \sqrt{\frac{\sum (y-\bar{y})^2}{n-1}}
+
 r = \frac{\sum ((x-\bar{x})(y-\bar{y}))}{\sqrt{\sum (x-\bar{x})^2\sum (y-\bar{y})^2}}
+
+b = r\frac{S_y}{S_x}
+
+a = \bar{y} - b\bar{x}
 
 t value for correlation coefficient:
 t = r \sqrt{\frac{df}{1-r^2}} \   \ \ \ \ \ where \  \ \  df = N- 2
+
+Durbin test statistics:
+d = \frac{\sum_{t=2}^n (e_t - e_{t-1})^2}{\sum_{t=1}^n e_t^2}
+
+
+P-Charts:
+\bar{p} = \frac{Total \ number of \ defective }{Total \ number \ of \ items}
+
+To construct a p-chart with 2-sigma control limits, we need to determine the value of z corresponding to the desired level of significance (alpha) and the number of standard deviations from the mean that the control limits should be placed.
+
+For a p-chart, we use the following formula to calculate the control limits:
+
+Upper Control Limit (UCL) = p + z * sqrt((p*(1-p))/n)
+Lower Control Limit (LCL) = p - z * sqrt((p*(1-p))/n)
+
+Where:
+
+p is the estimated proportion of defects
+n is the sample size
+z is the number of standard deviations from the mean
+To construct a p-chart with 2-sigma control limits, we want alpha/2 = 0.025 in each tail of the normal distribution. This corresponds to a z-value of 2.326. Therefore, we should use z=2.326 to construct the control chart.
